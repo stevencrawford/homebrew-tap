@@ -4,11 +4,11 @@ class AgentSweeper < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/stevencrawford/agent-sweeper/releases/download/v0.1.0/agent-sweeper_darwin_arm64.zip"
-    sha256 "d9e1cbb783074b7d33eae59224450bd53435f6cdc9d686d2c1e610a8ecbd93e9"
+    url "https://github.com/stevencrawford/agent-sweeper/releases/download/v0.2.0/agent-sweeper_darwin_arm64.zip"
+    sha256 "2da889c0c81e5cd4da098802c2590e6ea2bec61356a9bab74bf38c095d310f91"
   else
-    url "https://github.com/stevencrawford/agent-sweeper/releases/download/v0.1.0/agent-sweeper_darwin_amd64.zip"
-    sha256 "deb8aa5741450706ec01d2157aa6d2edee8339200a6d3fbb77803393b553ab77"
+    url "https://github.com/stevencrawford/agent-sweeper/releases/download/v0.2.0/agent-sweeper_darwin_amd64.zip"
+    sha256 "3089cb94b8d6c3677b9a91f87cd4fe45b7fd67c5a63f78dd52cd9ad78229ae82"
   end
 
   def install
