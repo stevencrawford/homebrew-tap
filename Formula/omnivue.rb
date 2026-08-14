@@ -4,11 +4,11 @@ class Omnivue < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/stevencrawford/omnivue/releases/download/v0.2.1/omnivue_darwin_arm64.zip"
-    sha256 "c65115c0e7c59bd88892b098bfb662adaa733427cfe9507a1f418991a3d1a0fc"
+    url "https://github.com/stevencrawford/omnivue/releases/download/v0.2.3/omnivue_darwin_arm64.zip"
+    sha256 "d1335298b6cf9a82c1020c788b59ad26a40a080e9513d9b5e2e02b18da9d2087"
   else
-    url "https://github.com/stevencrawford/omnivue/releases/download/v0.2.1/omnivue_darwin_amd64.zip"
-    sha256 "3b4bf0e9c2a114f55f1d9d7741e925ef71ddb01927d4a597a2efc74ad178b0f5"
+    url "https://github.com/stevencrawford/omnivue/releases/download/v0.2.3/omnivue_darwin_amd64.zip"
+    sha256 "7d4a57995812c19b1be5da7be2483e95b74fe90eb659e33d43deb6a2c670ceae"
   end
 
   def install
